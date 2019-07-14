@@ -1,0 +1,393 @@
+body {
+    background-color: #F4F4F4;
+}
+.orange{
+    background:#F5A623;
+}
+.green{
+    background:#1DC091;
+}
+.gray{
+    background:#CDCDCD;
+}
+.nav {
+    height: 80px;
+    background-color: #FFFF;
+    padding: 0;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000000
+}
+
+a:hover {
+    color: #F44336;
+}
+
+.logo-img img {
+    width: 40px;
+    height: 40px;
+}
+
+.xueer {
+    font-size: 26px;
+    color: #1DC091;
+}
+
+.home:hover {
+    border-top: 5px solid #F44336;
+}
+
+.check:hover {
+    border-top: 5px solid #F44336;
+}
+
+.home {
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 80px;
+    margin-left: 70px;
+}
+
+.check {
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 80px;
+    margin-left: 70px;
+}
+.myhead{
+    margin-left:60px;
+}
+.myhead img{
+    width:40px;
+    height:40px;
+}
+
+.button1 {
+    font-size: 14px;
+    width: 90px;
+    height: 30px;
+    line-height: 20px;
+    border: none;
+    color: #fff;
+    background-color: #1DC091;
+    margin-left:30px;
+}
+/*主体*/
+.main {
+    border-top: 2px solid #F4F4F4;
+    width: 800px;
+    background-color: #FFFF;
+    margin: auto;
+}
+/*课程*/
+.sign {
+    width: 180px;
+    height: 230px;
+    text-align: center;
+    background-color: #FFFF;
+    float: right;
+    border-right: 330px solid #F4F4F4;
+    border-top: 2px solid #F4F4F4;
+}
+.like{
+    font-size:18px;
+    color:#000000
+}
+.num{
+    font-size:22px;
+    color:#F44336;
+}
+.add {
+    height: 75px;
+    cursor: pointer;
+    background: #FEA201;
+    color: #FFFF;
+    font-size: 35px;
+    line-height: 75px;
+}
+.text {
+    width: 800px;
+    height: 240px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left:70px;
+}
+.belong {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #1DC091;
+    border-radius: 48px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+    color: #1DC091;
+    margin: auto;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align:top;
+}
+
+.classbox {
+    width: 550px;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-left: 1px solid #EAEAEA;
+    margin-top: 30px;
+    position: relative;
+}
+.classname1{
+    font-size:18px;
+    color:#000000;
+}
+.classname2{
+    font-size:14px;
+    color:#000000
+}
+.remark {
+    width: 480px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #000000;
+}
+.button2 {
+    position: absolute;
+    top: 0;
+    right: 38px;
+    background: #F44336;
+    color: #FFF;
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.labelsize{
+    height:25px;
+    color:#FFFF;
+    font-size:14px;
+    width:40px;
+    display:inline-block;
+}
+.labelsize2{
+    height: 25px;
+    color: #FFFF;
+    font-size: 14px;
+    width: 90px;
+    display: inline-block;
+}
+.must{
+    margin-left:80px;
+}
+/*热门评论*/
+.hotcomment {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 70px;
+    border-top: 10px solid #F4F4F4;
+    padding-top:30px;
+}
+.headline1 {
+    padding-left: 10px;
+    border-left: 5px solid #EA5A70;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.hotroom {
+    width: 700px;
+    border-bottom: 1px solid #EAEAEA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.headpro1 img {
+    width: 40px;
+    height: 40px;
+}
+.headpro1{
+    display:inline-block;
+    vertical-align:top;
+}
+.content{
+    margin-left:20px;
+}
+.name{
+    font-size:14px;
+    color:#1DC091;
+    display:inline-block;
+}
+.evaluate{
+    font-size:14px;
+    width:600px;
+}
+.hot {
+    background: #F44336;
+    color: #FFF;
+    width: 20px;
+    font-size: 6px;
+    font-weight: lighter;
+}
+.index {
+    text-align: right;
+    margin-right: 10px;
+}
+.year{
+    font-size:12px;
+    margin-left:20px;
+}
+.time {
+    font-size: 12px;
+    margin-left:20px;
+}
+.agree{
+    font-size:12px;
+    color:#1DC091;
+}
+/*最新评论*/
+.newcomment {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 70px;
+    border-top: 10px solid #F4F4F4;
+    padding-top: 30px;
+}
+.headline2 {
+    padding-left: 10px;
+    border-left: 5px solid #EA5A70;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.headpro2 img {
+    width: 40px;
+    height: 40px;
+}
+
+.headpro2 {
+    display: inline-block;
+    vertical-align: top;
+}
+.newroom {
+    width: 700px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.page {
+    text-align: right;
+    margin-top:30px;
+}
+.pagebottom {
+    padding: 3px 10px;
+    font-size: 20px;
+    color: #FFFF;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/*写评论*/
+.write {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 70px;
+    border-top: 10px solid #F4F4F4;
+    padding-top: 30px;
+}
+.headline3 {
+    padding-left: 10px;
+    border-left: 5px solid #EA5A70;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.head{
+    display:inline-block;
+    vertical-align:top;
+}
+.writebox{
+    width:600px;
+    margin-left:20px;
+}
+textarea {
+    width: 600px;
+    height: 200px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    border: 2px solid #CDCDCD;
+}
+
+.inputbox {
+    width: 600px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    border: 2px solid #CDCDCD;
+}
+.point{
+    color:#1DC091;
+    font-size:14px;
+    margin-bottom:10px;
+}
+.choose{
+    font-size:18px;
+    color:#FFF;
+}
+.button3 {
+    padding: 5px 30px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.submit{
+    text-align:center;
+    margin-bottom:40px;
+}
+.arrow {
+    width: 150px;
+    height: 150px;
+    color: #FFF;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 220px;
+    right: 350px;
+    background-color:#1DC091;
+}
+/*页脚*/
+.footer {
+    height: 100px;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(51,51,51,1);
+    border-top: 50px solid #F4F4F4;
+}
+
+.muxi {
+    text-align: center;
+}
+
+.rabbit {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.end {
+    text-align: center;
+    font-size: 20px;
+    color: #9B9B9B;
+    display: inline-block;
+}

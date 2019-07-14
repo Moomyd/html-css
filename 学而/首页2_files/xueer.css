@@ -1,0 +1,444 @@
+﻿body {
+    background-color: #F4F4F4;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li {
+    color: #F44336;
+}
+
+.col-green {
+    color: #1DC091;
+}
+
+.bgc-orange {
+    background: #F5A623;
+}
+
+.bgc-green {
+    background: #1DC091;
+}
+
+.bgc-gray {
+    background: #CDCDCD;
+}
+/*header*/
+a:hover {
+    color: #F44336;
+}
+
+.homepage:hover {
+    border-top: 5px solid #F44336;
+}
+
+.check:hover {
+    border-top: 5px solid #666;
+}
+
+.button-top {
+    font-size: 14px;
+    width: 90px;
+    height: 30px;
+    line-height: 20px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    background-color: #1DC091;
+}
+
+.header {
+    height: 80px;
+    background-color: #FFF;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.center {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-img img {
+    width: 35px;
+    height: 34px;
+}
+
+.xueer {
+    font-size: 26px;
+    color: #1DC091;
+}
+
+.homepage {
+    color: #F44336;
+    font-size: 20px;
+    line-height: 75px;
+    margin-left: 56px;
+    border-top: 5px solid transparent;
+    cursor: pointer;
+}
+
+.check {
+    color: #666;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 75px;
+    margin-left: 70px;
+    border-top: 5px solid transparent;
+    cursor: pointer;
+}
+
+.searchbar {
+    width: 325px;
+    height: 30px;
+    font-size: 0;
+    margin-left: 115px;
+}
+
+.search {
+    width: 225px;
+    height: 24px;
+    border: 2px solid #F44336;
+}
+
+.bar_span {
+    height: 30px;
+}
+
+.searchbar img {
+    width: 80px;
+    height: 32px;
+}
+
+.head-main {
+    margin-left: 55px;
+}
+
+    .head-main img {
+        width: 40px;
+        height: 40px;
+    }
+
+.signout {
+    margin-left: 10px;
+}
+/*main*/
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+/*课程简介*/
+.description {
+    width: 800px;
+    height: 238px;
+    padding-left: 75px;
+    background-color: #FFF;
+    box-sizing: border-box;
+}
+
+.circle {
+    width: 96px;
+    height: 96px;
+    border: 2px solid #1DC091;
+    border-radius: 48px;
+    text-align: center;
+    line-height: 96px;
+    font-size: 36px;
+    color: #1DC091;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.classbox {
+    width: 550px;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-left: 1px solid #EAEAEA;
+    margin-top: 40px;
+    position: relative;
+}
+
+.first {
+    font-size: 18px;
+    color: #666;
+}
+
+.second {
+    font-size: 14px;
+    color: #666;
+}
+
+.third {
+    width: 472px;
+    margin-left: 42px;
+    margin-bottom: 28px;
+    font-size: 14px;
+    color: #333;
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    right: 38px;
+    background: #F44336;
+    color: #FFF;
+    border: none;
+    padding: 5px 24px;
+    cursor: pointer;
+}
+
+.forth {
+    margin-left: 106px;
+}
+
+.labelbox {
+    height: 24px;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.right {
+    width: 190px;
+    height: 238px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #FFF;
+    float: right;
+}
+
+.pointer {
+    height: 84px;
+    cursor: pointer;
+    background: #FEA201;
+    color: #FFF;
+    font-size: 36px;
+    line-height: 84px;
+}
+
+.type1 {
+    font-size: 18px;
+    color: #333;
+    font-weight: lighter;
+}
+
+.type2 {
+    font-size: 20px;
+    color: #F65549;
+}
+/*热门评论*/
+.hot-comment {
+    width: 800px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    border-top: 10px solid #F4F4F4;
+    background-color: #FFF;
+    box-sizing: border-box;
+}
+
+.title {
+    padding-left: 11px;
+    border-left: 5px solid #EA5A70;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hotbox {
+    width: 686px;
+    border-bottom: 1px solid #EAEAEA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.head img {
+    width: 60px;
+}
+
+.head {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.text {
+    width: 600px;
+    font-size: 14px;
+    color: #333;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.hot {
+    background: #F44336;
+    color: #FFF;
+    font-size: 6px;
+    font-weight: lighter;
+}
+
+.time {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.year, .clock {
+    font-size: 12px;
+    color: #333;
+}
+/*最新评论*/
+.recent-comment {
+    width: 800px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    border-top: 10px solid #F4F4F4;
+    background-color: #FFF;
+    box-sizing: border-box;
+}
+
+.page {
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.pagebox {
+    padding: 6px 12px;
+    font-size: 12px;
+    color: #FFF;
+    cursor: pointer;
+}
+/*写评论*/
+.review {
+    background-color: #FFF;
+    box-sizing: border-box;
+    width: 800px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-top: 10px;
+}
+
+.textbox {
+    width: 616px;
+    margin-left: 20px;
+}
+
+.last {
+    padding-left: 75px;
+}
+
+textarea {
+    width: 608px;
+    height: 200px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    border: 2px solid #CDCDCD;
+}
+
+.inputbox {
+    width: 608px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    border: 2px solid #CDCDCD;
+}
+
+.notice {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.button-bottom {
+    width: 100px;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 5px 33px;
+    margin-top: 67px;
+    cursor: pointer;
+}
+
+.buttonbox {
+    text-align: center;
+}
+
+.back {
+    width: 90px;
+    height: 90px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 23px 17px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 220px;
+    right: 200px;
+}
+/*footer*/
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(51,51,51,1);
+    margin-top: 100px;
+}
+
+.rabbit {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.muxibox {
+    text-align: center;
+}
+
+.muxi {
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #9B9B9B;
+    display: inline-block;
+}
+
+.stdio {
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #9B9B9B;
+    display: inline-block;
+}
+
+.red {
+    color: #EA5A70;
+    display: inline-block;
+}
+
+.team {
+    width: 140px;
+    height: 20px;
+    font-size: 14px;
+    color: #9B9B9B;
+    display: inline-block;
+}
